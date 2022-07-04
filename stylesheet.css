@@ -1,0 +1,19 @@
+body {
+  font-size: 54px; text-align: center;
+  font-family: Fraunces, serif;
+  background-color: hsl(30, 38%, 92%);
+}
+
+div.attribute {
+  font-size: 30px; text-align: center;
+  color: hsl(228, 45%, 44%);
+}
+
+/*links*/
+a:link {
+  color: hsl(228, 45%, 44%);
+}
+
+a:hover {
+  color: white;
+}
