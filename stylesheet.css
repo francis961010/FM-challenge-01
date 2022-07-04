@@ -14,16 +14,18 @@ div.attribute {
 }
 
 div.image-box{
-  width: 30px;
+  width: 300px;
   height: 400px;
   border: 15px yellow;
   background-color: yellow;
+  object-fit: contain;
 }
-div.test-box {
+div.text-box {
   width: 300px;
   height: 400px;
   border: 15px hsl(0, 0%, 100%);
   background-color: hsl(0, 0%, 100%);
+  float: right;
 
   /*
   width: 300px;
@@ -44,20 +46,16 @@ div.test-box {
 }
 
 p.title{
-  float: right;
   font-size: 20px;
 }
 
 p.description {
-  float: right;
   text-align: right;
 }
 
 div.image-item {
 
-  float:left;
-  width: 100%; /* or any custom size */
-    height: 100%;
+
   object-fit: contain;
 
 }
